@@ -1,4 +1,8 @@
 {
+  "name": "@format/wavefront-obj",
+  "version": "0.0.1",
+  "license": "MIT",
+  "exports": "./main.ts",
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
