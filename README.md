@@ -4,6 +4,8 @@ This is a small library hopefully usable everywhere that will be able to very
 simply parse obj files and write obj files based off of vertex and traingle
 data.
 
+Does not support multi obj file reading and writing at the moment but might in the future -- make a request on github if needed.
+
 ## Format description
 
 - vertices: Stores vertex positions (v).
