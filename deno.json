@@ -1,12 +1,17 @@
 {
   "name": "@format/wavefront-obj",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
-  "exports": "./mod.ts",
+  "exports": "./src/mod.ts",
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch ./src/main.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
-  }
+  },
+  "exclude": [
+    ".github",
+    ".vscode",
+    "bin"
+  ]
 }
